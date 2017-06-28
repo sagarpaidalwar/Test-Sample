@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Testing" thread-count="2">
+<suite-files >
+<!--     <suite-file path="D:\\NewFalconJawbone\\falcon-mobile\\src\main\\resources\\testSuits\\signin.xml" /> -->
+<!--     <suite-file path="D:\NewFalconJawbone\falcon-mobile\src\main\resources\testSuits\reminder.xml" />  -->
+<suite-file path="D:\\NewFalconJawbone\\falcon-mobile\\src\main\\resources\\testSuits\\Duels.xml" />
+</suite-files>
+</suite>

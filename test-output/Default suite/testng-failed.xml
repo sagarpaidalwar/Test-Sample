@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.atmecs.falcon.testsuite.TestSuiteBase"/>
+      <class name="com.jawbone.utility.Readjson"/>
+      <class name="com.atmecs.falcon.module.SignFailedInvalidEmail"/>
+      <class name="com.atmecs.falcon.module.SignUsingClassicAccount"/>
+      <class name="com.atmecs.falcon.runner.TestScriptPackage"/>
+      <class name="com.atmecs.falcon.testfunction.CommonMethods"/>
+      <class name="com.atmecs.falcon.module.EmailFieldPopulatedWithPreviouslySignedInUserEmailId"/>
+      <class name="com.atmecs.falcon.runner.TestNGRunner"/>
+      <class name="com.atmecs.falcon.module.SignInUsingOpenAccount"/>
+      <class name="com.atmecs.falcon.module.SignOutLandsOnWelcomeScreen"/>
+      <class name="com.atmecs.falcon.module.LoginTest"/>
+      <class name="com.atmecs.falcon.module.SignFailedInvalidPassword"/>
+      <class name="com.atmecs.falcon.module.SignInPromtAccountCreatedInJawboneSite"/>
+      <class name="com.jawbone.utility.LoadPages"/>
+      <class name="com.jawbone.utility.Constants"/>
+      <class name="com.atmecs.falcon.module.SignInUsingAccountCreatedInAnotherPlatform"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.atmecs.falcon.module.LoginTest">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="loginTest"/>
+          <include name="killServer"/>
+          <include name="beforetest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.atmecs.falcon.module.LoginTest -->
+      <class name="com.atmecs.falcon.module.SignOutLandsOnWelcomeScreen">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="signOutLandsOnWelcomeScreen"/>
+          <include name="beforeTest"/>
+          <include name="killServer"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.atmecs.falcon.module.SignOutLandsOnWelcomeScreen -->
+      <class name="com.atmecs.falcon.testsuite.TestSuiteBase">
+        <methods>
+          <include name="preSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.falcon.testsuite.TestSuiteBase -->
+      <class name="com.atmecs.falcon.module.SignFailedInvalidEmail">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="beforetest"/>
+          <include name="signInFailedInvalidEmail"/>
+          <include name="killServer"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.atmecs.falcon.module.SignFailedInvalidEmail -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

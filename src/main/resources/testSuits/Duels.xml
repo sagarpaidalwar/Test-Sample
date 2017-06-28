@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Duels">
+   <test name="Send Duels From Friends Profile"> 
+     <classes> 
+       <class name="com.atmecs.falcone.duels.StartDuelOnFriendsProfile"/>
+     </classes>
+   </test>
+</suite>

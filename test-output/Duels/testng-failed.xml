@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Duels]">
+  <test name="Send Duels From Friends Profile">
+    <classes>
+      <class name="com.atmecs.falcone.duels.StartDuelOnFriendsProfile"/>
+    </classes>
+  </test> <!-- Send Duels From Friends Profile -->
+</suite> <!-- Failed suite [Duels] -->

@@ -1,0 +1,79 @@
+﻿sep=,
+"ID","Title","Case ID","Expected Result","Steps"
+"T60112668","Install latest JB Data Collection","C28337735","The app should install and launch properly.","1. Install the JBDataCollection app onto an iOS device.
+2. Launch the app
+3. If prompted with a login screen, login with one of your already existing UP Open accounts."
+"T60112670","Enable Collector Mode (Raw Streaming Support)","C28337737","Sparta> band_mode get
+
+CURRENT MODE
+Current band mode is Collector
+MODE FLAGS
+Band mode flag is Collector","0. To ensure the band's logs are clean for this test, run:
+
+    dbgrec clear
+
+1. Switch the band to collector mode.
+
+    band_mode set collector
+    reboot
+
+2. Verify the band_mode via.
+
+    band_mode get
+
+NOTE: You **must** turn off collector mode when you are finished with this test suite.  Collector mode is not supported for anything other than data research tools like JB Data Collection.  (This mode will interfere with the normal user experience in ways including but not limited to: Battery Drain, OTA Failure, Activity Detection, etc.)"
+"T60112669","Pair Deion with JB Data Collection","C28337736","Band pairs with app.","1. From the app, navigate to the Devices view (via the left rail).
+2. Add a ""Sparta Band"".
+3. Select the band to be tested and complete the pairing process."
+"T60112671","Record with JB Data Collection","C28337738","- All data streams continue to receive samples for the duration of the recording.
+- The LED never turns of throughout the duration of the recording.
+- No unexpected recording errors in the app once the recording has started.","1. From the app, navigate to the Recordings view (via the left rail).
+2. Tap ""New Recording"".
+3. Tap ""Add Device"".
+4. Tap the already Paired Device.
+5. Put the band on your wrist.  Wear the band for the duration of the recording.
+6. Tap ""Start Recording"".
+7. Verify that all Data streams are receiving samples.
+  - Accelerometer
+  - Biosensor
+  - Temperature
+8. Verify that the LED on the underside of the band remains enabled (the LED is on and flickering).
+9. Record data for the duration specified in the title of this test run."
+"T60112672","Upload Data","C28337739","Band is able to uploaded recorded data.","1. End the recording.
+2. Tap ""Upload Recording (Collector Web)""
+3. Set the Collector Web fields to:
+
+    Domain: motion
+    Experiment: deion
+    Category: scratch
+    UserProfile: tester
+
+    Participant ID: your name
+    Handedness: left or right
+
+4. Navigate back to recordings.
+5. Tap on your recording.
+6. Tap on ""Uploaded (CollectorWeb)"" for details.
+7. Put the _id of the recording as the comment for the test result."
+"T60112673","Check logs on Deion for any watchdogs during recording","C28337740","The log has does not have any text that says ""watchdog"".","1. Dump the device's debug log.
+
+    dbgrec dump
+
+2. Search the log's text for 'watchdog' (do a case insensitive search)."
+"T60112674","Disable Collector Mode","C30581565","Sparta> band_mode get
+
+CURRENT MODE
+Current band mode is Normal
+MODE FLAGS
+Band mode flag is Normal","When finished testing, disable collector mode to ensure the band is safe for normal testing.
+
+1. Switch the band to collector mode.
+
+    band_mode set normal
+    reboot
+
+2. Verify the band_mode via.
+
+    band_mode get
+
+NOTE: You **must** turn off collector mode when you are finished with this test suite.  Collector mode is not supported for anything other than data research tools like JB Data Collection.  (This mode will interfere with the normal user experience in ways including but not limited to: Battery Drain, OTA Failure, Activity Detection, etc.)"

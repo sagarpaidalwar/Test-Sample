@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:33Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:33Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #1: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":0,"value":true}...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:33Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 1 from instruments: au.setScreenOrientation('PORTRAIT')</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:34Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.setScreenOrientation('PORTRAIT')</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:34Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.setDeviceOrientation("1")</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:34Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:35Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:35Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #2: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":0,"value":"PORTRAIT"}...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:35Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 2 from instruments: au.mainApp().getTreeForXML()</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:36Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.mainApp().getTreeForXML()</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:36Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:37Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:ed":true,"valid":true,"visible":true,"hint":null,"path":"/0/0","x":0,"y":0,"width":375,"height":667},"&gt;":[{"UIAButton":{"@":{"name":"Select Date","label":"Select Date","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/0","x":76,"y":100,"width":223,"height":30},"&gt;":[]}},{"UIAStaticText":{"@":{"name":"SelectedDate","label":"SelectedDate","value":"SelectedDate","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/1","x":76,"y":543,"width":223,"height":24},"&gt;":[]}}]}},{"UIAWindow":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/1","x":0,"y":0,"width":375,"height":667},"&gt;":[{"UIAStatusBar":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/1/0","x":0,"y":0,"width":375,"height":20},"&gt;":[{"UIAElement":{"@":{"name":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/0","x":6,"y":0,"width":38,"height":20},"&gt;":[]}},{"UIAElement":{"@":{"name":"3 of 3 Wi-Fi bars","label":"3 of 3 Wi-Fi bars","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/1","x":49,"y":0,"width":13,"height":20},"&gt;":[]}},{"UIAElement":{"@":{"name":"12:58 PM","label":"12:58 PM","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/2","x":161,"y":0,"width":52,"height":20},"&gt;":[]}},{"UIAElement":{"@":{"name":"100% battery power","label":"100% battery power","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/3","x":345,"y":0,"width":25,"height":20},"&gt;":[]}}]}}]}}]}}}</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:37Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #3: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":0,"value":{"UIAApplication":{"@":...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:37Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 3 from instruments: au.hideKeyboard('default')</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:40Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.hideKeyboard('default')</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:40Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:40Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:40Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #4: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":0,"value":""}...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:40Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 4 from instruments: au.dragApp(200,800,200,200,2)</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.dragApp(200,800,200,200,2)</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.dragFromToForDuration({x:"200", y:"800"}, {x:"200", y:"200"}, "2")</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>start point is not within the bounds of the screen</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>bootstrap-0db51525829ee57f.js</string>
+			<key>Line</key>
+			<integer>426</integer>
+			<key>LogType</key>
+			<string>Error</string>
+			<key>Message</key>
+			<string>VerboseError: start point is not within the bounds of the screen</string>
+			<key>Screenshot</key>
+			<string>958C649E-3EA0-458A-A0C0-8CB172D06E1F</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>bootstrap-0db51525829ee57f.js</string>
+			<key>Line</key>
+			<integer>426</integer>
+			<key>LogType</key>
+			<string>Error</string>
+			<key>Message</key>
+			<string>Error during eval: dragFromToForDuration@[native code]\ndragApp@file:///Applications/Appium.app/Contents/Resources/node_modules/appium/90E32D23-8543-49A1-AAF0-A6A1099E83EB/bootstrap-0db51525829ee57f.js:1164:39\neval code\neval@[native code]\nstartProcessing@file:///Applications/Appium.app/Contents/Resources/node_modules/appium/90E32D23-8543-49A1-AAF0-A6A1099E83EB/bootstrap-0db51525829ee57f.js:2710:30\nbootstrap@file:///Applications/Appium.app/Contents/Resources/node_modules/appium/90E32D23-8543-49A1-AAF0-A6A1099E83EB/bootstrap-0db51525829ee57f.js:2778:31\nglobal code@file:///Applications/Appium.app/Contents/Resources/node_modules/appium/90E32D23-8543-49A1-AAF0-A6A1099E83EB/bootstrap-0db51525829ee57f.js:2787:10</string>
+			<key>Screenshot</key>
+			<string>1F99D149-B057-4A35-9421-8FC919993D48</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #5: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":17,"value":"start point is not wi...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:41Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 5 from instruments: au.getScreenOrientation()</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:44Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.getScreenOrientation()</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:44Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:44Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:44Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #6: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":0,"value":"PORTRAIT"}...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:44Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 6 from instruments: au.capture('screenshotc9672694-0531-4c6b-a715-73199b366292')</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.capture('screenshotc9672694-0531-4c6b-a715-73199b366292')</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.captureRectOnScreenWithName("{origin:{x:0.00,y:0.00}, size:{height:667.00,width:375.00}}", UIScreen, "screenshotc9672694-0531-4c6b-a715-73199b366292")</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Screenshot</string>
+			<key>Message</key>
+			<string>screenshotc9672694-0531-4c6b-a715-73199b366292</string>
+			<key>Screenshot</key>
+			<string>5CDF8778-78FA-4662-9B41-7626144DBC76</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #7: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_64551/instruments_sock 2,{"status":0,"value":""}...</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:45Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Stopped</string>
+			<key>Message</key>
+			<string>Script was stopped by the user</string>
+			<key>Timestamp</key>
+			<date>2016-08-26T07:28:46Z</date>
+			<key>Type</key>
+			<integer>9</integer>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

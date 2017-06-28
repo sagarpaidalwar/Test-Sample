@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Total Number of devices detected::1]]>
+    </line>
+    <line>
+      <![CDATA[Starting Appium server for device : ZX1G429KVD]]>
+    </line>
+    <line>
+      <![CDATA[PASS : : ACTUAL : true 	EXPECTED :true]]>
+    </line>
+  </reporter-output>
+  <suite name="Duels" duration-ms="49001" started-at="2017-01-21T11:24:06Z" finished-at="2017-01-21T11:24:55Z">
+    <groups>
+    </groups>
+    <test name="Send Duels From Friends Profile" duration-ms="49001" started-at="2017-01-21T11:24:06Z" finished-at="2017-01-21T11:24:55Z">
+      <class name="com.atmecs.falcone.duels.StartDuelOnFriendsProfile">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="preSetup" is-config="true" duration-ms="14" started-at="2017-01-21T16:54:06Z" finished-at="2017-01-21T16:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-01-21T16:54:06Z" finished-at="2017-01-21T16:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="15737" started-at="2017-01-21T16:54:06Z" finished-at="2017-01-21T16:54:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atmecs.falcone.duels.StartDuelOnFriendsProfile.sendDuelsFromFriendsProfile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="sendDuelsFromFriendsProfile()[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="sendDuelsFromFriendsProfile" duration-ms="32127" started-at="2017-01-21T16:54:22Z" finished-at="2017-01-21T16:54:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS : : ACTUAL : true 	EXPECTED :true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendDuelsFromFriendsProfile -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1128" started-at="2017-01-21T16:54:54Z" finished-at="2017-01-21T16:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendDuelsFromFriendsProfile on [StartDuelOnFriendsProfile passed=0 failed=0 skipped=0] status=SUCCESS method=StartDuelOnFriendsProfile.sendDuelsFromFriendsProfile()[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]] output=PASS : : ACTUAL : true 	EXPECTED :true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-01-21T16:54:55Z" finished-at="2017-01-21T16:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:[StartDuelOnFriendsProfile passed=0 failed=0 skipped=0]]" name="teardown" is-config="true" duration-ms="0" started-at="2017-01-21T16:54:55Z" finished-at="2017-01-21T16:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.atmecs.falcone.duels.StartDuelOnFriendsProfile -->
+    </test> <!-- Send Duels From Friends Profile -->
+  </suite> <!-- Duels -->
+</testng-results>

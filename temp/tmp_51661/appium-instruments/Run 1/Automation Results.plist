@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:08Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:08Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #1: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_51661/instruments_sock 2,{"status":0,"value":true}...</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:08Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 1 from instruments: au.setScreenOrientation('PORTRAIT')</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:09Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.setScreenOrientation('PORTRAIT')</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:09Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>target.setDeviceOrientation("1")</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:10Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:10Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:11Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #2: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_51661/instruments_sock 2,{"status":0,"value":"PORTRAIT"}...</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:11Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Got new command 2 from instruments: au.mainApp().getTreeForXML()</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:11Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluating au.mainApp().getTreeForXML()</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:11Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>evaluation finished</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:12Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>responding with:ed":true,"valid":true,"visible":true,"hint":null,"path":"/0/0","x":0,"y":0,"width":375,"height":667},"&gt;":[{"UIAButton":{"@":{"name":"Select Date","label":"Select Date","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/0","x":76,"y":100,"width":223,"height":30},"&gt;":[]}},{"UIAStaticText":{"@":{"name":"SelectedDate","label":"SelectedDate","value":"SelectedDate","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/1","x":76,"y":543,"width":223,"height":24},"&gt;":[]}}]}},{"UIAWindow":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/1","x":0,"y":0,"width":375,"height":667},"&gt;":[{"UIAStatusBar":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/1/0","x":0,"y":0,"width":375,"height":20},"&gt;":[{"UIAElement":{"@":{"name":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/0","x":6,"y":0,"width":38,"height":20},"&gt;":[]}},{"UIAElement":{"@":{"name":"3 of 3 Wi-Fi bars","label":"3 of 3 Wi-Fi bars","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/1","x":49,"y":0,"width":13,"height":20},"&gt;":[]}},{"UIAElement":{"@":{"name":"1:19 PM","label":"1:19 PM","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/2","x":165,"y":0,"width":44,"height":20},"&gt;":[]}},{"UIAElement":{"@":{"name":"100% battery power","label":"100% battery power","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/1/0/3","x":345,"y":0,"width":25,"height":20},"&gt;":[]}}]}}]}}]}}}</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:12Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Debug</string>
+			<key>Message</key>
+			<string>Running system command #3: /Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js /Users/suraj/Downloads/atmecstest/falcon-mobile/temp/tmp_51661/instruments_sock 2,{"status":0,"value":{"UIAApplication":{"@":...</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:12Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>LogType</key>
+			<string>Stopped</string>
+			<key>Message</key>
+			<string>Script was stopped by the user</string>
+			<key>Timestamp</key>
+			<date>2016-09-07T07:49:12Z</date>
+			<key>Type</key>
+			<integer>9</integer>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+{
+"ValidUserName":"pen@cc.com",
+"Validpassword":"pen112",
+"InvalidUserName":"san123.com"
+"Invalidpass":"123546"
+"jawboneusername":"can@android.com"
+"jawbonepassword":"can112"
+"openusername":"sagarup3@mail.com"
+"openuserpassword":"sagar112"
+"classicusername":"sagarup24@mail.com"
+"classicpassword":"sagar112"
+"iosusername":"zaltan.ibro@gm.com"
+"iospassword":"global12"
+}

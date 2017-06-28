@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sign In">
+   <test name="Edit Reminder"> 
+     <classes> 
+       <class name="com.atmecs.falcon.reminder.EditReminder"/>
+     </classes>
+   </test>
+  <test name="Set Reminder">
+     <classes>
+      <class name="com.atmecs.falcon.reminder.SetReminder"/> 
+     </classes> 
+   </test> 
+</suite>

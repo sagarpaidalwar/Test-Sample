@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Sign In]">
+  <test name="Edit Reminder">
+    <classes>
+      <class name="com.atmecs.falcon.reminder.EditReminder"/>
+    </classes>
+  </test> <!-- Edit Reminder -->
+  <test name="Set Reminder">
+    <classes>
+      <class name="com.atmecs.falcon.reminder.SetReminder"/>
+    </classes>
+  </test> <!-- Set Reminder -->
+</suite> <!-- Failed suite [Sign In] -->

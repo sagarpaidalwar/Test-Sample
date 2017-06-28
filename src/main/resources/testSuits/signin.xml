@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sign In ">
+   <test name="Login Lands On Home Screen"> 
+     <classes> 
+       <class name="com.atmecs.falcon.signinandoobe.LoginTest"/>
+     </classes>
+   </test>
+  <test name="SignOut LandsOn WelcomeScreen">
+     <classes>
+      <class name="com.atmecs.falcon.signinandoobe.SignOutLandsOnWelcomeScreen"/> 
+     </classes> 
+   </test> 
+  <test name="Sign In Failed With Invalid Email Id">
+    <classes>
+      <class name="com.atmecs.falcon.signinandoobe.SignFailedInvalidEmail"/>
+    </classes>
+  </test> 
+   <test name="Sign In Failed With Invalid Pasword">
+    <classes>
+      <class name="com.atmecs.falcon.signinandoobe.SignFailedInvalidPassword"/>
+    </classes>
+  </test> 
+  <test name="Previously Email id get poulated in Email feild after log out">
+    <classes>
+      <class name="com.atmecs.falcon.signinandoobe.EmailFieldPopulatedWithPreviouslySignedInUserEmailId"/> 
+    </classes>
+   </test>
+    <test name="Sign in using account created with open App">
+    <classes>
+      <class name="com.atmecs.falcon.signinandoobe.SignInUsingOpenAccount"/> 
+    </classes>
+   </test>
+   
+    <test name="Sign in using account created with Classic App">
+    <classes>
+      <class name="com.atmecs.falcon.signinandoobe.SignUsingClassicAccount"/> 
+    </classes>
+   </test>
+   <test name="Sign in using account created with IOs Platform App">
+    <classes>
+      <class name="com.atmecs.falcon.signinandoobe.SignInUsingAccountCreatedInAnotherPlatform"/> 
+    </classes>
+   </test>
+<!--    <test name="logged in with jawbone account redirect to choose your page"> -->
+<!--     <classes> -->
+<!--       <class name="com.atmecs.falcon.signinandoobe.SignInPromtAccountCreatedInJawboneSite"/>  -->
+<!--     </classes> -->
+<!--    </test> -->
+</suite> 
